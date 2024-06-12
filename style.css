@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+/*
+font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+ font-family: 'Poppins', sans-serif;
+*/
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color:#33383C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .card{
+    width: 500px;
+    height: 500px;
+    border-radius: 1rem;
+    background-color: #1E2326;
+    border: 2px solid #F7F6FB;
+    color:#F7F6FB;
+    display: flex;
+    padding: 1rem 3rem;
+    gap:2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .bottom-name{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.bottom-name span{
+    font-style: italic;
+    font-weight: 200;
+}
+ul{
+    margin-bottom: 1rem;
+}
+.input{
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.7rem;
+    gap: 1rem;
+}
+input{
+    width: 100%;
+    height: 40px;
+    background-color: #6A737A;
+    padding: 0.7rem 1rem;
+    color: #F7F6FB;
+    border-radius: 0.7rem;
+    border: none;
+    outline: none;
+}
+input:focus{
+    border: 2px solid #1cee96;
+}
+::placeholder{
+    color: #F7F6FB;
+}
+.button{
+    text-align: right;
+}
+button{
+    background-color: #1cee96;
+    border: none;
+    padding: 0.5rem 1.5rem ;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: #F7F6FB;
+}
+

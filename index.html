@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <div class="top">
+                <h1>Sign Up</h1>
+                <div class="icons">
+                    <span><i class="ri-user-2-fill"></i></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="bottom" class="bottom">
+                <div class="bottom-name">
+                    <h3>Username</h3>
+                <span>Username is your online identify</span>
+                </div>
+                <ul>
+                    <li>Lorem ipsum doloxsxr sit amet consectetur adipisicing elit. Minima, atque.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, atque.</li>
+                    <li>Lorem ipsum ssccccvdcvdolor sit amet consectetur adipisicing elit. Minima, atque.</li>
+                </ul>
+                <div class="input">
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="First Name">
+                     <input type="text" placeholder="last Name">
+                </div>
+                <div class="button">
+                <button id="btn">Next</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <script>
+      var btn = document.querySelector("#btn")
+      var bottom =document.querySelector("#bottom")
+      var inpUser =document.querySelector("#username")
+      var inpFirst =document.querySelector("#firstName")
+      var inpLast =document.querySelector("#lastname")
+      btn.addEventListener("click", function () {
+
+    //    if(inpUser.value == "" || inpFirst.value == "" || inpLast.value == "" ){
+
+    //    }
+       bottom.innerHTML = ""
+       bottom.innerHTML = `<div class="bottom-name">
+                    <h3>Email</h3>
+                <span>Email is your online identify</span>
+                </div>
+                <ul>
+                    <li>Lorem ipsum dssxcolor sit amet consectetur adipisicing elit. Minima, atque.</li>
+                    <li>Lorem ipsum dolorcxcs sit amet consectetur adipisicing elit. Minima, atque.</li>
+                    <li>Lorem ipsum ssccccvdcvdolor sit amet consectetur adipisicing elit. Minima, atque.</li>
+                </ul>
+                <div class="input">
+                    <input type="text" placeholder="Username">
+                </div>
+                
+                <div class="button">
+                <button id="btn">Next</button>
+                </div>`
+
+      })
+
+    </script>
+</body>
+</html>
